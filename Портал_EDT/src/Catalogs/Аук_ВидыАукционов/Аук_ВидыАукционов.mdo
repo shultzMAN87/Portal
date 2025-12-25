@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d6bda0c-2cf3-4efe-809e-a0a13d38c9b2">
+  <producedTypes>
+    <objectType typeId="af247ebd-5069-4f95-9bb2-7693ecdc5475" valueTypeId="9893e5d0-d3aa-40a8-933d-becbce62bb5e"/>
+    <refType typeId="9cdf7292-5516-4dea-be31-5eb13a372bf4" valueTypeId="6334faf6-6fe5-4fd3-91b6-5ad557ebeb9f"/>
+    <selectionType typeId="55edd637-90cc-4c9c-99cd-4e3f6a24461d" valueTypeId="1d42fb11-08a3-4d13-b47c-4d4fa67bfa89"/>
+    <listType typeId="5d781463-fcb0-4a7e-9815-cfc81f2c8308" valueTypeId="8c02751a-a33d-471b-8601-b6844fbc5468"/>
+    <managerType typeId="92777290-d2b6-4c86-a42f-8d0d0e7e9823" valueTypeId="297c1508-ff5a-42e2-9b23-713a600e2249"/>
+  </producedTypes>
+  <name>Аук_ВидыАукционов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды аукционов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Аук_ВидыАукционов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Аук_ВидыАукционов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Аук_ВидыАукционов.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="cccd9b71-9cc3-4de7-b750-20e62b302e21">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аук_ВидыОперацийАукционов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="897c3b1d-e6d4-4e72-b075-4a73a232dde1">
+    <name>Продукт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аук_ПродуктыАукционов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e6abe29d-58a9-45ee-b0ad-54c83344ecb7">
+    <name>СРаспределениемСуммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>С распределением суммы</value>
+    </synonym>
+    <comment>Признак того, что при подведении итогов по аукциону данного вида будет использоваться распределение суммы аукциона</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f55c2d40-034a-4155-89f8-a886908a57ad">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7fb681dd-e1c1-40d8-929e-ad73a9a6f356">
+    <name>НесколькоЗначенийСтруктурыСтавки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Несколько значений структуры ставки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bbefe4a6-d437-4e5a-bdf4-063aeab12431">
+    <name>НесколькоЗначенийСтруктурыВводныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Несколько значений структуры вводных данных</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8712460f-e49e-4e20-9e09-932982de16d1">
+    <name>ПромежуточныйИтогВариантВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант выбора промежуточного итога</value>
+    </synonym>
+    <comment>0 - Минимум, 1 - Максимум</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a97ef4c5-a63b-48c8-8346-fefbb6ebd43f">
+    <name>ПромежуточныйИтогФормула</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формула вычисления промежуточного итога</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e5df42ce-9d93-48ef-8c83-9ed1f3f5db28">
+    <name>ПромежуточныйИтогШаблонРезультата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Промежуточный итог шаблон результата</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="206bda24-3128-4899-929f-1b7b2ed35e76">
+    <name>ОкончательныйИтогФормула</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формула вычисления окончательного итога</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2fb2e2b3-11ee-4a1c-aa21-bc58fba20a51">
+    <name>ОкончательныйИтогРаспределяемаяСуммаОсновная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончательный итог распределяемая сумма основная</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>75</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="44b2be2d-a5b6-4f51-8b18-6d774d214a8f">
+    <name>ОкончательныйИтогРаспределяемаяСуммаДополнительная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончательный итог распределяемая сумма дополнительная</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>75</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="52348109-26a3-4cb4-8c0e-7415f05d674f">
+    <producedTypes>
+      <objectType typeId="b5da672e-0acc-413a-8611-a26f956bfe22" valueTypeId="750e8d8a-0fbf-4e25-bb4f-36c197c1a9b1"/>
+      <rowType typeId="8a7dfba5-91cc-4eba-b199-439973f0c103" valueTypeId="490272fd-c67e-4c2e-aea8-a6c41e924d97"/>
+    </producedTypes>
+    <name>СтруктураСтавки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура ставки</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="6eae8339-e25c-4135-9f7a-3a05684735c7">
+      <name>ЭлементСтавки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Элемент ставки</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.Аук_ЭлементыДанныхАукционов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1d3523fd-b119-4d03-a4d0-cdb0ad0404a8">
+      <name>НеОбязательный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Не обязательный</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="f6218087-a705-414e-9f4e-90c0da5d8ea0">
+    <producedTypes>
+      <objectType typeId="1902e529-32e5-4e09-b83e-5d9de42bc572" valueTypeId="91400e18-35a4-42f0-9811-7a3aec113410"/>
+      <rowType typeId="755574e5-b653-4a3a-89c0-28b479080100" valueTypeId="b2411fae-567c-4ccd-8425-52fc99aa5149"/>
+    </producedTypes>
+    <name>СтруктураНачальныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура начальных данных</value>
+    </synonym>
+    <attributes uuid="0a89df6e-3063-428f-a9bc-71b7741c759a">
+      <name>ЭлементДанных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Элемент данных</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.Аук_ЭлементыДанныхАукционов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="550ed6d3-d1b5-423a-811c-077f411e5f3c">
+    <producedTypes>
+      <objectType typeId="cb34f718-b150-45bc-8dd5-bd8e72269cb2" valueTypeId="460b751c-4774-4cd3-9e17-302a1b73404a"/>
+      <rowType typeId="990430e1-bef1-4b96-a22b-8d858ac6a09c" valueTypeId="2ff7b099-aac3-46e3-bcd9-1d7945fbb655"/>
+    </producedTypes>
+    <name>ЭтапыПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этапы по умолчанию</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="564379b9-8323-46d4-863e-ac07a498d2d5">
+      <name>Этап</name>
+      <synonym>
+        <key>ru</key>
+        <value>Этап</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>64</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2a6853e1-3fcd-471f-a8f7-db628a52d3fd">
+      <name>ДлительностьДни</name>
+      <synonym>
+        <key>ru</key>
+        <value>Длительность дни</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a4869886-862d-4814-a594-da0405adba12">
+      <name>ДлительностьЧасы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Длительность часы</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="5ddc7939-4822-42d5-889e-17029bcb7cc7">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2d7a524f-d492-4802-ab4a-82ae56cdaf42">
+    <name>КонструкторФормулы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конструктор формулы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3e3a9275-2ebd-400c-8d87-60c452b3cfa4">
+    <name>МастерРаспределенияПоУчастникам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мастер распределения по участникам</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

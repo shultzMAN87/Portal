@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7544dfdf-4a25-415e-b30a-d76b904d1710">
+  <producedTypes>
+    <selectionType typeId="51e687c4-1e34-439c-8423-45383e8428f2" valueTypeId="c4abf1f1-c74d-4c05-8c91-9289d7766ac6"/>
+    <listType typeId="36b853ac-7f64-411b-a94e-9e3a0dbfac7d" valueTypeId="bf186a00-3cf4-40f6-b5b7-774303065c54"/>
+    <managerType typeId="d4acbb95-b273-4e0b-9ee2-02491215105f" valueTypeId="44c8b0e8-8ae7-42d5-9771-18e5cc1621cb"/>
+    <recordSetType typeId="6b15de22-010a-400c-aa1c-b07d34311f6f" valueTypeId="174e8fe7-d269-4779-b533-1cc992b52d0b"/>
+    <recordKeyType typeId="6f140a5b-17f3-4a5a-b183-6ee958919804" valueTypeId="8f672fc6-b49f-41d2-b090-1f56063066e4"/>
+    <recordType typeId="67c934fe-7014-4158-b489-f1b9b5e72a29" valueTypeId="67668e5f-3c25-4336-8312-b3c08015c842"/>
+    <recordManagerType typeId="88866a85-051c-43dc-8bd7-d946f22e5712" valueTypeId="9b8327c5-8bfa-4bd8-885a-3b4183b9087a"/>
+  </producedTypes>
+  <name>Аук_ИтогиЗавершенияЭтапов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Итоги завершения этапов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="2e4562e1-1e48-426c-9e7d-a2d8dfd8f8e7">
+    <name>НомерЭтапа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер этапа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="97690279-e1ec-4919-af45-c0a9980dbe96">
+    <name>РезультатРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат расчета</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>18</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="34f9fc0a-7123-4a79-91e7-f5ba0d14a240">
+    <name>ПредставлениеРезультатаРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление результата расчета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="8a8f7d4f-5c95-4725-82fa-b128660be51f">
+    <name>ДатаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="f43040ea-ca80-4877-b7d6-b680022f1db2">
+    <name>ДатаСтавки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата ставки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="869947f7-a39a-4bd8-9b5f-3b197d96dbdf">
+    <name>Аукцион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аукцион</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аук_Аукционы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4dff5e2c-3d49-481b-9b6e-c79d2c5903c6">
+    <name>Участник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аук_УчастникиАукционов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f3214ac6-a07f-4558-8dc7-8db3e3b9b239">
+    <name>СтрокаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка данных</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

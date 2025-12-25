@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1f89570-8756-46e1-a72f-0a148892c7ee">
+  <producedTypes>
+    <objectType typeId="80edf451-6211-4b2c-a21a-4124bc00c49a" valueTypeId="ef80cc48-f867-48aa-9fa7-daa41541b92c"/>
+    <refType typeId="e844361b-7db3-41a8-bf5b-515620bdc374" valueTypeId="a5fce3ef-5bc3-4323-945a-6c74d1b257c5"/>
+    <selectionType typeId="0fb54f51-cae1-459b-823f-49a774bed76f" valueTypeId="d1b45b68-5f0c-4587-ae81-1202d6374b3e"/>
+    <listType typeId="77f2bc23-e891-4186-a690-90d2c645137c" valueTypeId="bf6983de-79d3-48b5-82ff-491d381ab72a"/>
+    <managerType typeId="15b97e0a-38b7-4d9d-87fa-f2b72cee0213" valueTypeId="59ee6e04-90e3-4b0a-bacb-41ac83dd9f77"/>
+    <containerType typeId="b32b4ce4-1841-4373-906b-3637e446461f" valueTypeId="59d3d5c6-ec0a-489d-9e86-56fd04a47c75"/>
+  </producedTypes>
+  <name>Аук_ЭлементыНастроекКаналовВзаимодействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Элементы настроек каналов взаимодействия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.Аук_ЭлементыНастроекКаналовВзаимодействия.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.Аук_ЭлементыНастроекКаналовВзаимодействия.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>1000</length>
+    </stringQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.Аук_ЭлементыНастроекКаналовВзаимодействия.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="26700828-2c0d-48e4-9700-f22a83c22151">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2873f540-a51a-406a-9a2a-26a8ae981bea">
+    <name>ТехническоеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Техническое наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="73f14baa-d69f-4aa0-a396-afcf9608d76d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

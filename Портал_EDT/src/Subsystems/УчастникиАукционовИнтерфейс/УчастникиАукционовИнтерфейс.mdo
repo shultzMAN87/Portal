@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f558f6a-477a-4947-831c-34fca8b16877">
+  <name>УчастникиАукционовИнтерфейс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Участники аукционов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Аук_УчастникиАукционов</content>
+  <content>Catalog.Аук_КонтактныеЛицаУчастниковАукционов</content>
+  <content>Catalog.Аук_КаналыВзаимодействия</content>
+  <content>ChartOfCharacteristicTypes.Аук_ЭлементыНастроекКаналовВзаимодействия</content>
+</mdclass:Subsystem>

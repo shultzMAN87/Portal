@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e850a2f-f662-4df5-a200-8e265e816610">
+  <producedTypes>
+    <refType typeId="265880cf-bf4d-47d3-9ba0-3ce1c0223e50" valueTypeId="90259dfd-2126-4f0f-8e1a-ee532f164d06"/>
+    <listType typeId="47124034-20ad-4745-be85-5024d522a87c" valueTypeId="6c48fce0-f5d3-4534-845d-334a64a541fb"/>
+    <managerType typeId="2b1db40c-1766-44b2-90b2-b8db55ca5964" valueTypeId="e467f4e4-2a9c-4ea0-929a-af4b8631b35e"/>
+  </producedTypes>
+  <name>Аук_РезультатыВыполненияКоманд</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты выполнения команд</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a31794f7-29ae-4b85-9e09-ea2354dd23bc">
+    <name>ОбработанаУспешно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработана успешно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e81ec1c6-57a5-41dc-bc38-7d8e24f5c9a9">
+    <name>ОбработанаСОшибкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработана с ошибкой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ebe28ff5-c6a8-466e-a454-4193cf560127">
+    <name>ОшибкаВалидацииДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка валидации данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="57392ccc-2cab-490b-be75-87e7c652d98f">
+    <name>ОшибкаСопоставленияДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка сопоставления данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d45aa95-df3b-40ac-8a28-1f191866b6f5">
+    <name>НеприменимоКТекущемуСостоянию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неприменимо к текущему состоянию</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1e1a89f-b99e-414b-b2d9-1440633f94f4">
+  <producedTypes>
+    <selectionType typeId="51f2ffec-e590-4c83-b9fb-3412f5d8316a" valueTypeId="968b7d88-7343-4dd0-800b-2dc8a4f97c14"/>
+    <listType typeId="c2e699ad-6add-4562-91cf-a36e451afa06" valueTypeId="86c87a9d-9934-48b0-a64c-b3d0b69e6cea"/>
+    <managerType typeId="596b9853-d2e4-4f5d-af15-08bc5a827017" valueTypeId="a41fca8a-485e-4adf-bfee-ee9454795466"/>
+    <recordSetType typeId="15ca97a8-6b4d-4fc5-a48f-7db03c412cd5" valueTypeId="9823560e-f9fc-4093-973c-da5845e344ec"/>
+    <recordKeyType typeId="a6ff2a2e-1c4d-42e9-a420-1252ee93b724" valueTypeId="e22b9425-4ed4-446f-8ecc-8b98424d2050"/>
+    <recordType typeId="25d6e08c-e8fb-4767-a97f-600b920245fd" valueTypeId="fc8d802c-d616-42e5-a778-400822c1f677"/>
+    <recordManagerType typeId="b529b3ae-53d9-439b-b771-bf2e22a9e5ac" valueTypeId="97ac591c-da5e-4e23-90e5-361b2b284836"/>
+  </producedTypes>
+  <name>Аук_ИсторияКомандАукционов</name>
+  <synonym>
+    <key>ru</key>
+    <value>История команд аукционов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Аук_ИсторияКомандАукционов.Form.ФормаЗаписи</defaultRecordForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="998d952a-6525-4591-90fd-daac3f8155d3">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="c939cc81-3188-40f3-bb6c-42369e3d116f">
+    <name>Автоматическая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматическая</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4fa2e68a-5c71-43bc-877d-e77cc24a3313">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аук_КаналыВзаимодействия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="82b42420-b1d1-4bfb-bf2e-e0a66ac9218b">
+    <name>КлючРодителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ родителя</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБД_КлючиУникальности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c9c2e5a6-2004-4bbb-b806-44f206d7c270">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Аук_РезультатыВыполненияКоманд</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d00983a5-2c38-4663-91c8-d11c435af12e">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="9f142604-b599-49a7-8b88-cf13c9f2d676">
+    <name>Аукцион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аукцион</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аук_Аукционы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1999025a-2896-4c8a-a5ae-0c7551b3b21a">
+    <name>Команда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Аук_Команды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="396b787d-ba6b-4858-b555-e71fe3f08b67">
+    <name>Участник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аук_УчастникиАукционов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="68b37edd-be80-40d4-9397-5f7f19cc5724">
+    <name>КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аук_КонтактныеЛицаУчастниковАукционов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="44037f0b-5109-41cd-a415-a4129802e7f2">
+    <name>КлючКоманды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ команды</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБД_КлючиУникальности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8d3542ff-6f60-4371-9e80-b93638b5729b">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

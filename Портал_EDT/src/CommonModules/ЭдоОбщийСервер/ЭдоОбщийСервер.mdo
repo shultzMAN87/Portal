@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31a08a73-1adb-4771-97da-66b49e66f962">
+  <name>ЭдоОбщийСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Эдо общий сервер</value>
+  </synonym>
+  <comment>для совместимости с УБД</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

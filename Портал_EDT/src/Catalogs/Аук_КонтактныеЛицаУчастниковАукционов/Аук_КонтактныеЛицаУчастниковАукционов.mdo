@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28328df6-96a9-4f7a-abc9-31c3aab903d8">
+  <producedTypes>
+    <objectType typeId="ba38c96a-9f74-4f7e-b535-3a348afc1b29" valueTypeId="065c85d1-eb74-4661-be0a-3164f749dbae"/>
+    <refType typeId="ce68b218-e076-432d-afb0-7be6dd6fc582" valueTypeId="5c427989-150c-4666-9df5-c58fac2e050e"/>
+    <selectionType typeId="83c6ee3b-7cfb-4e2e-a5fb-2f8205ee6966" valueTypeId="18b6d804-8143-42c4-bcbd-29bd7bb3c8fe"/>
+    <listType typeId="43571a7d-0d41-46dd-9775-76bc308ce377" valueTypeId="b8bf8329-55f1-4b60-86a1-edcd23c9a6b3"/>
+    <managerType typeId="92b33336-bfbc-41fc-a33c-ab166625497b" valueTypeId="3d6a0881-c91b-4754-be56-8dbd4bc4293b"/>
+  </producedTypes>
+  <name>Аук_КонтактныеЛицаУчастниковАукционов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактные лица участников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Аук_КонтактныеЛицаУчастниковАукционов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Аук_КонтактныеЛицаУчастниковАукционов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Аук_УчастникиАукционов</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Аук_КонтактныеЛицаУчастниковАукционов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.Аук_КонтактныеЛицаУчастниковАукционов.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="36ba671a-11b4-4a0f-a301-87c902a7c4d3">
+    <name>Фамилия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0addf867-e5c7-466b-9dcf-c2684efc6822">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b821b741-ba43-4116-89ba-b80e39d1a6f5">
+    <name>Отчество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчество</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4d1702d3-255f-44df-91c1-415f9f76749f">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="09f4ceb3-9965-41d6-a6f2-7256452c8573">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="d93e3981-092d-4516-b996-ad024b54d65c">
+    <producedTypes>
+      <objectType typeId="b0fedffb-b36f-40e8-8cb9-652dbca1fa03" valueTypeId="a15d2055-842d-4ae4-a525-a68761f97c70"/>
+      <rowType typeId="1541afcd-170f-4a7c-aad6-8f141b32c4df" valueTypeId="945cf349-e13a-4047-a3bc-ce16df63f99a"/>
+    </producedTypes>
+    <name>КаналыВзаимодействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каналы взаимодействия</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="dc1c440d-818c-4821-a8c6-05bcf67379fe">
+      <name>КаналВзаимодействия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Канал взаимодействия</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Аук_КаналыВзаимодействия</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e33d0d1e-b0ed-4841-8746-052385de521f">
+      <name>Текущий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текущий</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="f325b319-8af0-46fd-b0c0-7feee621eb5a">
+    <producedTypes>
+      <objectType typeId="5b95b030-71ba-4cba-b96c-6b277594203d" valueTypeId="274821dd-ee8a-47b0-b5d1-179249e1a288"/>
+      <rowType typeId="b07baac9-beae-4bfc-8c8b-c401d6806263" valueTypeId="1b1d1996-eaf4-4142-af78-ae644f3cb90c"/>
+    </producedTypes>
+    <name>НастройкиКаналовВзаимодействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки каналов взаимодействия</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="6ed07e63-0b2f-496e-b3cf-4499fdee9537">
+      <name>НПП</name>
+      <synonym>
+        <key>ru</key>
+        <value>НПП</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="40fb854a-734d-4081-9f0a-cf307f0c34c1">
+      <name>КаналВзаимодействия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Канал взаимодействия</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Аук_КаналыВзаимодействия</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b3c7907e-437b-4412-b7ea-3d8054c05054">
+      <name>ЭлементНастройки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Элемент настройки</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.Аук_ЭлементыНастроекКаналовВзаимодействия</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d6bb9dda-e8fa-4ab5-8ff0-7ced7907ccc7">
+      <name>ЗначениеНастройки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение настройки</value>
+      </synonym>
+      <type>
+        <types>Characteristic.Аук_ЭлементыНастроекКаналовВзаимодействия</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="1b85fa67-11a4-488b-aa85-5f74e53cd809">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="89910c4e-82dc-41e0-8ee7-1a505522ba0a">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

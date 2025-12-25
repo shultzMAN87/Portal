@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9664b302-c424-4745-a1a5-070df123345e">
+  <producedTypes>
+    <refType typeId="2d3fb5b2-4128-4ba4-a6aa-ff390884e278" valueTypeId="330b2f99-80da-4aa5-b31b-f951b7b1fbca"/>
+    <listType typeId="187c2a4c-2a8c-4993-a495-e27271df3829" valueTypeId="a27a776c-1285-4b27-8f81-83d5f6d9e047"/>
+    <managerType typeId="7a198347-5d7b-40b0-9340-c25aa05489d8" valueTypeId="299757db-54b8-4b0a-b75d-1273a85af2e7"/>
+  </producedTypes>
+  <name>Аук_НаправленияДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Направления данных</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="90eadc6e-9374-4557-9e1b-8a241aff5a21">
+    <name>Входящие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="072c917d-d4cb-4e3d-833b-5636fc12b1f7">
+    <name>Исходящие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящие</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

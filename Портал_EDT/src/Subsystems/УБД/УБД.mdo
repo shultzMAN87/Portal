@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3c9874c-c4d1-41b3-bf27-e8dc802990ba">
+  <name>УБД</name>
+  <synonym>
+    <key>ru</key>
+    <value>УБД</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.УБД_Пользователи</content>
+  <content>Catalog.УБД_Банки</content>
+  <content>Catalog.УБД_ЮрЛица</content>
+  <content>Catalog.УБД_КлючиУникальности</content>
+</mdclass:Subsystem>

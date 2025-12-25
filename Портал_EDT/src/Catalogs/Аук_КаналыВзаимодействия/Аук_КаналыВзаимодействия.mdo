@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23bae89d-c568-4a9a-a6cc-265584c4f80a">
+  <producedTypes>
+    <objectType typeId="81fae889-3392-4bcd-8d4e-ea57502748f4" valueTypeId="64699670-2af4-4aec-8231-d0eef348e2b2"/>
+    <refType typeId="a1034a13-9bae-46ae-aad5-4686f5e33355" valueTypeId="2dcd5a62-43d5-43f6-a590-4d3f7731e65b"/>
+    <selectionType typeId="08b2f099-8a12-466f-a294-b3ad175674e2" valueTypeId="a76421ed-5d3d-4010-8bf5-4366c76e3675"/>
+    <listType typeId="6d7617cf-95dd-4b0b-b5ff-ae6358b54c05" valueTypeId="f20345a5-fcde-4af0-921f-a390f26959ae"/>
+    <managerType typeId="f3e0a4e6-c991-4bc9-89b9-a249a5cf3290" valueTypeId="ed6509c9-28d2-49f9-b973-68641031c5eb"/>
+  </producedTypes>
+  <name>Аук_КаналыВзаимодействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каналы взаимодействия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Аук_КаналыВзаимодействия.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Аук_КаналыВзаимодействия.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Аук_КаналыВзаимодействия.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="51f96254-0f08-4d48-a5e2-d2e631966b3c">
+    <name>НесколькоЗначенийЭлементовНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Несколько значений элементов настройки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="a339f4ae-c1fd-49b1-a030-312b296bf0a9">
+    <producedTypes>
+      <objectType typeId="29ebc170-5826-43d2-9e65-daec2b170ea4" valueTypeId="5d156117-b0b2-4990-bfc5-f98babd72f86"/>
+      <rowType typeId="f2562000-0f32-4fd7-b4f4-e3b1d29a09e5" valueTypeId="924a8088-9d3c-46f9-a683-fdda495cee84"/>
+    </producedTypes>
+    <name>СтруктураНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура настроек</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="6d0ebd1a-4338-4140-96c9-4521995f3072">
+      <name>ЭлементНастройки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Элемент настройки</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.Аук_ЭлементыНастроекКаналовВзаимодействия</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="c6e9f93d-870e-45b2-862b-4aba0638d948">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

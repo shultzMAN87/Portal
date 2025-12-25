@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16c10e08-8ffc-4c60-a657-ea1506c9d5c4">
+  <producedTypes>
+    <refType typeId="6e9ec5b9-3e20-4963-a2cb-00db06ed5bfd" valueTypeId="ebb0ae27-86b6-4eb6-a24c-671e204d31a6"/>
+    <listType typeId="17e31b89-cbf3-4922-8515-e5ea921d2cde" valueTypeId="5ec16dac-708f-4e48-8d30-b1c70a2efec8"/>
+    <managerType typeId="7000db6d-bcea-41be-8b34-e81c82ac4d57" valueTypeId="c4ab4af9-2b84-4252-9d9e-d4d0a9b08ae4"/>
+  </producedTypes>
+  <name>Аук_ВидыСообщенийУчастникам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды сообщений участникам</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bce8b984-c4f3-483c-9b6c-1ea6c56473c5">
+    <name>УведомлениеУчастникаОПриемеСтавки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление участника о приеме ставки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="891fb7f2-b3bb-4049-b8ef-0e7e84429fcc">
+    <name>УведомлениеУчастникаОПриемеОтказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление участника о приеме отказа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="57f0c82b-ab90-4e5e-91fc-5c34ed87bdb7">
+    <name>УведомлениеУчастникаОЗавершенииЭтапаАукциона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление участника о завершении этапа аукциона</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="29b7e3dd-0f16-4aaf-959b-827dd2b34d16">
+    <name>УведомлениеУчастникаОПромежуточномПобедителе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление участника о промежуточном победителе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e991f9a1-cbdd-4f27-b19b-27877b6d5aa4">
+    <name>УведомлениеПобедителяАукционаОПобеде</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление победителя аукциона о победе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4f1b0840-df99-46c7-970e-d6f8c5994c84">
+    <name>УведомлениеУчастникаОНачалеАукциона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление участника о начале аукциона</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ce832c99-ab51-4b89-9bed-90d1a8347d86">
+    <name>ПростоеСообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Простое сообщение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

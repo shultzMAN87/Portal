@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a87d7d9a-23e1-422b-9758-516708b28cf8">
+  <name>ВидыАукционовИнтерфейс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды аукционов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Аук_ВидыАукционов</content>
+  <content>Catalog.Аук_ВидыОперацийАукционов</content>
+  <content>Catalog.Аук_ПродуктыАукционов</content>
+  <content>Catalog.Аук_ДопЭлементыДанныхАукционов</content>
+  <content>ChartOfCharacteristicTypes.Аук_ЭлементыДанныхАукционов</content>
+</mdclass:Subsystem>

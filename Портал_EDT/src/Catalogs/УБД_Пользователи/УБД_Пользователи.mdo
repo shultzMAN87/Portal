@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="188d75fc-7578-4a0e-a85a-bf9331016fd6">
+  <producedTypes>
+    <objectType typeId="a546982b-c37a-41d9-863a-3e64cc1f8732" valueTypeId="28e33933-9b0a-4eab-88ba-2ba9cbb9e5ca"/>
+    <refType typeId="6a67b44b-0222-4b47-87af-fc215265022f" valueTypeId="05453447-82b2-42ff-b2ba-abb95a283110"/>
+    <selectionType typeId="3446c9bf-883a-40d5-a485-f79c2d13d0e7" valueTypeId="db191bed-3f50-4130-9a5a-b63d8e96185b"/>
+    <listType typeId="57f54635-3b60-48c6-a510-483c539e46c3" valueTypeId="f1ed2d74-1a84-419f-acc3-c031412211a9"/>
+    <managerType typeId="fc898963-a5ef-461e-967e-c821104b617d" valueTypeId="4ec65963-0fb9-458d-8bb8-43422df0e946"/>
+  </producedTypes>
+  <name>УБД_Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>УБД Пользователи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УБД_Пользователи.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УБД_Пользователи.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="e55b86ab-87c1-4e4b-8777-b3298653b4ec">
+      <name>Система</name>
+      <description>Система</description>
+      <code xsi:type="core:StringValue">
+        <value>999995</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="4c890c6c-8b3d-4043-97a1-78cd5ed83db7">
+    <name>ЭлПочта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эл почта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

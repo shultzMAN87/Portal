@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="643b4739-e431-4ac8-a35c-f433565abf31">
+  <producedTypes>
+    <objectType typeId="9cfa3103-caea-49a0-8ea1-c3c822a618a7" valueTypeId="12f92e7f-3d67-4213-8ec6-7d57d1709b51"/>
+    <managerType typeId="2a67e16f-2919-4c7b-bb0e-ea1d82207bc4" valueTypeId="9d86eca7-33bb-4163-bf26-e977b2394eff"/>
+  </producedTypes>
+  <name>Аук_РабочийСтолАукционы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочий стол аукционы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Аук_РабочийСтолАукционы.Form.Форма</defaultForm>
+  <forms uuid="b3e5be31-8ac0-4661-9300-3cf859d0f2e7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7ce144de-76ee-4bb9-b67b-715f632fd44b">
+    <name>ВводСтавкиУчастника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод ставки участника</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f4887558-1fcf-45af-918c-77e62fa21872">
+    <name>ВводИнформацииОбОтказе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод информации об отказе</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a4545b1d-6b54-44be-a3b4-57ded6b11b82">
+    <name>ВводВходящегоСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод входящего сообщения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1f2db2f4-4948-4d7b-8262-78cbbb7f819c">
+    <name>ОтправкаСообщенияУчастникам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправка сообщения участникам</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4b6337be-ea19-497c-911b-2e195199d6ab">
+    <name>ПодведениеПромежуточныхИтогов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подведение промежуточных итогов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="87341802-db6b-479f-a272-99bd5d142ee8">
+    <name>ПодведениеИтогов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подведение итогов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d0349c0f-14b4-42b5-a9c9-750548ce2950">
+    <name>ПодведениеИтогов2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подведение итогов2</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d050ace2-137b-4c0f-85d1-8840f8dd7393">
+    <name>ПросмотрИсторииСтавок2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просмотр истории ставок2</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

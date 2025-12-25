@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SettingsStorage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aaa864ed-3252-4efb-acec-b02c0f758cf1">
+  <producedTypes>
+    <managerType typeId="50db3079-7cd7-4622-9d51-02923ca87b9d" valueTypeId="118d1cb0-7060-4d31-afad-80427619d103"/>
+  </producedTypes>
+  <name>ХранилищеНастроек1</name>
+  <defaultSaveForm>SettingsStorage.ХранилищеНастроек1.Form.ФормаСохранения</defaultSaveForm>
+  <defaultLoadForm>SettingsStorage.ХранилищеНастроек1.Form.ФормаЗагрузки</defaultLoadForm>
+  <forms uuid="0edca226-1077-429a-b767-bdd26b1491a6">
+    <name>ФормаСохранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма сохранения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e75cd13e-15e0-430c-b0b9-58b7ce913781">
+    <name>ФормаЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма загрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:SettingsStorage>

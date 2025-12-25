@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af72d6a3-0fe8-421c-a4eb-08665da08d49">
+  <producedTypes>
+    <selectionType typeId="a968c63e-bf53-4936-9c25-77e47314fe0d" valueTypeId="542e95ca-5654-4195-91b6-226fea6780b0"/>
+    <listType typeId="508d8ac7-5526-47d7-9208-4085236acb45" valueTypeId="3a4bea68-cc01-4ac6-91e1-73a74e729fd8"/>
+    <managerType typeId="2cba2465-e042-455a-955c-c723150cb607" valueTypeId="43f6e890-adff-462d-8ba7-779211d9ab02"/>
+    <recordSetType typeId="3698e707-9c17-4ec7-89a8-f214fa7c4985" valueTypeId="9f00ce79-febc-4b95-9e09-3aec10fd4f23"/>
+    <recordKeyType typeId="d7a486ca-e244-4761-b3b6-ef290055f892" valueTypeId="5cf82f80-23a6-4395-a460-7f91ec873d2a"/>
+    <recordType typeId="044378ba-4a78-43d9-9fbe-807c17d717b1" valueTypeId="0455789a-66d6-4887-926a-030673921f26"/>
+    <recordManagerType typeId="2cb3220d-4c7e-4a53-b35b-a51c691a167d" valueTypeId="614abad3-a615-41bb-aa16-15358a4891f5"/>
+  </producedTypes>
+  <name>Аук_ИсторияСтатусовАукционов</name>
+  <synonym>
+    <key>ru</key>
+    <value>История статусов аукционов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b2d4d40b-a3f4-4d7f-a9e6-2849cd98b5ec">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Аук_СтатусыАукционов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="4cbe62f7-b711-4197-9d99-83edc67bef48">
+    <name>НомерЭтапа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер этапа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="31d6a0d1-7381-431c-9bf1-1aee8c022a04">
+    <name>Этап</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этап</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="17a99e2d-448c-4e3f-a966-3eae00e52be0">
+    <name>Аукцион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аукцион</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аук_Аукционы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

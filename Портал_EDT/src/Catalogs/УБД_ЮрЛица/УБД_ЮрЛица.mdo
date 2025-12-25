@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e54efa31-e631-4fa2-b9c4-4b9ab1e5d07a">
+  <producedTypes>
+    <objectType typeId="53f360d8-2d51-4c55-8c48-3a963aafcacc" valueTypeId="8536b8d2-677c-4a0a-bd20-9dac24704c38"/>
+    <refType typeId="77c7c80c-2fce-48df-bdad-0f33df8d501c" valueTypeId="1c7a0535-2073-42ad-9783-ae847fe03676"/>
+    <selectionType typeId="0682418b-3380-458c-9db1-95b6612d43ed" valueTypeId="cf9547ef-da62-4355-bd5e-934a1bffa00f"/>
+    <listType typeId="29facae0-92f7-4f59-8925-74e70c72aaa4" valueTypeId="344ea705-7f3f-4ebe-a0cf-310ea587e7f2"/>
+    <managerType typeId="416284c6-da1a-4741-9f0e-2f28d9948f2f" valueTypeId="30daaea5-8b40-484a-ad4a-d421321dcd2c"/>
+  </producedTypes>
+  <name>УБД_ЮрЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>УБД ЮрЛица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УБД_ЮрЛица.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УБД_ЮрЛица.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

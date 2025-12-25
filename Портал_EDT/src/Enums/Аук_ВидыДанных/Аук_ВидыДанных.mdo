@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="882a1e83-8bd2-436f-8555-787092673b09">
+  <producedTypes>
+    <refType typeId="48480d43-cf20-438b-839e-abebd24774f4" valueTypeId="378a1d5e-e935-42e6-8108-883073ad513e"/>
+    <listType typeId="e277a25b-dc57-42e7-9667-fef5cb57e700" valueTypeId="5fbdd741-f113-491c-a9cf-6a2b07cde60a"/>
+    <managerType typeId="889b08ff-fe2f-46d4-8142-fc2d41260257" valueTypeId="aeb52736-919b-45ba-a79e-765761c8ee85"/>
+  </producedTypes>
+  <name>Аук_ВидыДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды данных</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ca494f5f-74c2-4733-b194-ef47c6bf2388">
+    <name>Ставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="09fb7cef-a6f6-49a9-a479-5c421c9af317">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4818c720-9e45-45ff-8be2-3b9b3d36b4c7">
+    <name>Отказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

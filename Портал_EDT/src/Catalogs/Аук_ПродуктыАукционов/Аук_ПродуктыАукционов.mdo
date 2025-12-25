@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b734e046-1fc0-43db-b540-427ae7e7d5a3">
+  <producedTypes>
+    <objectType typeId="7f415570-a113-4ca9-a885-719576afbc62" valueTypeId="98cf5b3f-b59b-419d-9778-005b60c95d07"/>
+    <refType typeId="bafa5cc5-b58c-4e20-be01-9cf5cf075016" valueTypeId="07d1a1cc-bfaf-4e5f-9d64-66afe26eac7a"/>
+    <selectionType typeId="50834a02-eed5-4762-8c37-234b7a173342" valueTypeId="2f6f7b3a-4199-475f-9dc0-208495f88989"/>
+    <listType typeId="b23ac50f-8395-4bf1-8023-015db43206fa" valueTypeId="4f99ce2d-d0ef-4f44-a163-f9e39cf37c85"/>
+    <managerType typeId="c639c676-71e0-4691-84fa-0363092b4171" valueTypeId="9dc78f95-2d95-4941-9bb6-1603103db78e"/>
+  </producedTypes>
+  <name>Аук_ПродуктыАукционов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продукты аукционов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Аук_ПродуктыАукционов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Аук_ПродуктыАукционов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Аук_ПродуктыАукционов.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="cfeb1b17-691b-4b86-8e81-8547b68406eb">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2741efc7-8b60-40e0-b755-dcb6b753ce89">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

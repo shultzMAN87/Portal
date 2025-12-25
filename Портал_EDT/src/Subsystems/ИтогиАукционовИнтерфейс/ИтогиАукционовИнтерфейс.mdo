@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83f01cd0-1e30-4c50-9576-d20b5ad49f55">
+  <name>ИтогиАукционовИнтерфейс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Итоги аукционов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.Аук_ДанныеШапокПодведенияИтогов</content>
+  <content>InformationRegister.Аук_ДанныеТаблицПодведенияИтогов</content>
+</mdclass:Subsystem>

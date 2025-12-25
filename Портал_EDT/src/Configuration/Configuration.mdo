@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30f0f0d2-ccb4-432c-80f1-58153073d0ad">
+  <name>Котировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Котировки</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="9a052d5f-be16-4d9c-97c5-d5d2a4792063"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="70598525-78c6-44d2-a38f-9d04bc911cbb"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="2523019e-be9f-400c-8f9e-2d862133e118"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="6a0baf6d-d38e-4883-8082-5e1eee4039d0"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="9581e5ab-eb4d-4482-af9f-659feb4134f8"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="7e83cead-35e6-4375-b426-6458818e8566"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="da653453-f5ba-4ef6-b8bf-d4e2e8912dc5"/>
+  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.24</compatibilityMode>
+  <languages uuid="fbe37d37-e86a-46c1-a748-388bc7b58cfc">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.УБД</subsystems>
+  <subsystems>Subsystem.УбдИнтерфейс</subsystems>
+  <subsystems>Subsystem.Аукционы</subsystems>
+  <subsystems>Subsystem.АукционыИнтерфейс</subsystems>
+  <subsystems>Subsystem.ВидыАукционовИнтерфейс</subsystems>
+  <subsystems>Subsystem.УчастникиАукционовИнтерфейс</subsystems>
+  <subsystems>Subsystem.ИтогиАукционовИнтерфейс</subsystems>
+  <subsystems>Subsystem.КонсольЗапросов</subsystems>
+  <commonPictures>CommonPicture.Аук_НаручныеЧасы</commonPictures>
+  <sessionParameters>SessionParameter.глТекПользователь</sessionParameters>
+  <roles>Role.Полные</roles>
+  <commonModules>CommonModule.Аук_ОбщийВызовСервера</commonModules>
+  <commonModules>CommonModule.Аук_ОбщийКлиент</commonModules>
+  <commonModules>CommonModule.Аук_ОбщийКлиентСервер</commonModules>
+  <commonModules>CommonModule.Аук_ОбщийСервер</commonModules>
+  <commonModules>CommonModule.Аук_УправлениеАукционамиВызовСервера</commonModules>
+  <commonModules>CommonModule.Аук_УправлениеАукционамиКлиентСервер</commonModules>
+  <commonModules>CommonModule.Аук_УправлениеАукционамиСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ЭдоОбщийСервер</commonModules>
+  <commonModules>CommonModule.ЭдоОбщий</commonModules>
+  <commonModules>CommonModule.ЛогированиеОбщий</commonModules>
+  <commonModules>CommonModule.ЭдоОбщийЛогированиеКлиентСервер</commonModules>
+  <commonModules>CommonModule.Рассылки</commonModules>
+  <settingsStorages>SettingsStorage.ХранилищеНастроек1</settingsStorages>
+  <commonCommands>CommonCommand.Аук_АвтоматическоеВыполнениеФоново</commonCommands>
+  <catalogs>Catalog.УБД_Банки</catalogs>
+  <catalogs>Catalog.УБД_КлючиУникальности</catalogs>
+  <catalogs>Catalog.УБД_Пользователи</catalogs>
+  <catalogs>Catalog.УБД_ЮрЛица</catalogs>
+  <catalogs>Catalog.Аук_Аукционы</catalogs>
+  <catalogs>Catalog.Аук_ВидыАукционов</catalogs>
+  <catalogs>Catalog.Аук_ВидыОперацийАукционов</catalogs>
+  <catalogs>Catalog.Аук_ПродуктыАукционов</catalogs>
+  <catalogs>Catalog.Аук_ДопЭлементыДанныхАукционов</catalogs>
+  <catalogs>Catalog.Аук_УчастникиАукционов</catalogs>
+  <catalogs>Catalog.Аук_КонтактныеЛицаУчастниковАукционов</catalogs>
+  <catalogs>Catalog.Аук_КаналыВзаимодействия</catalogs>
+  <enums>Enum.Аук_ВидыДанных</enums>
+  <enums>Enum.Аук_Команды</enums>
+  <enums>Enum.Аук_ВидыСообщенийУчастникам</enums>
+  <enums>Enum.Аук_НаправленияДанных</enums>
+  <enums>Enum.Аук_РезультатыВыполненияКоманд</enums>
+  <enums>Enum.Аук_СтатусыАукционов</enums>
+  <dataProcessors>DataProcessor.Аук_РабочийСтолАукционы</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольЗапросов9000</dataProcessors>
+  <dataProcessors>DataProcessor.Обработка</dataProcessors>
+  <informationRegisters>InformationRegister.Аук_ИсторияДанныхАукционов</informationRegisters>
+  <informationRegisters>InformationRegister.Аук_ИсторияСтатусовАукционов</informationRegisters>
+  <informationRegisters>InformationRegister.Аук_ИсторияКомандАукционов</informationRegisters>
+  <informationRegisters>InformationRegister.Аук_ДанныеШапокПодведенияИтогов</informationRegisters>
+  <informationRegisters>InformationRegister.Аук_ДанныеТаблицПодведенияИтогов</informationRegisters>
+  <informationRegisters>InformationRegister.Аук_ИтогиЗавершенияЭтапов</informationRegisters>
+  <informationRegisters>InformationRegister.Аук_ШаблоныСообщенийУчастникам</informationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.Аук_ЭлементыДанныхАукционов</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.Аук_ЭлементыНастроекКаналовВзаимодействия</chartsOfCharacteristicTypes>
+</mdclass:Configuration>

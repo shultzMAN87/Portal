@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbe46016-92f0-4b83-97c5-d30e370a4c34">
+  <name>Аукционы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аукционы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.Аук_ВидыОперацийАукционов</content>
+  <content>Catalog.Аук_ПродуктыАукционов</content>
+  <content>Catalog.Аук_ДопЭлементыДанныхАукционов</content>
+  <content>Catalog.Аук_УчастникиАукционов</content>
+  <content>ChartOfCharacteristicTypes.Аук_ЭлементыДанныхАукционов</content>
+  <content>InformationRegister.Аук_ИсторияДанныхАукционов</content>
+  <content>Catalog.Аук_КонтактныеЛицаУчастниковАукционов</content>
+  <content>Catalog.Аук_ВидыАукционов</content>
+  <content>Catalog.Аук_Аукционы</content>
+  <content>Catalog.Аук_КаналыВзаимодействия</content>
+  <content>ChartOfCharacteristicTypes.Аук_ЭлементыНастроекКаналовВзаимодействия</content>
+  <content>InformationRegister.Аук_ИсторияСтатусовАукционов</content>
+  <content>DataProcessor.Аук_РабочийСтолАукционы</content>
+  <content>Enum.Аук_ВидыДанных</content>
+  <content>Enum.Аук_НаправленияДанных</content>
+  <content>InformationRegister.Аук_ИсторияКомандАукционов</content>
+  <content>InformationRegister.Аук_ДанныеШапокПодведенияИтогов</content>
+  <content>InformationRegister.Аук_ДанныеТаблицПодведенияИтогов</content>
+  <content>InformationRegister.Аук_ИтогиЗавершенияЭтапов</content>
+  <content>InformationRegister.Аук_ШаблоныСообщенийУчастникам</content>
+</mdclass:Subsystem>

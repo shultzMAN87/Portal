@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12405232-1b4e-4747-b9bd-9b76dfb551e2">
+  <producedTypes>
+    <refType typeId="581146cb-3f8f-40e9-a2c0-413e08539f92" valueTypeId="cb2cf3ad-633d-4bf9-950c-3c9cb5d70e31"/>
+    <listType typeId="6eff6a25-0af8-41e9-b155-614cecd86782" valueTypeId="c7b385ac-77a5-47e7-aed4-9fd37483998b"/>
+    <managerType typeId="1cb73286-39ef-436d-b5b7-2b012fea644e" valueTypeId="e28019ef-3d24-4e45-8e54-7c881a4cc2e5"/>
+  </producedTypes>
+  <name>Аук_Команды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Команды</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="50c267d3-8c30-4934-8244-01140fcec677">
+    <name>ПроверитьВозможностьНачалаАукциона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверить возможность начала аукциона</value>
+    </synonym>
+    <comment>CheckPossibilityOfStartingAuction</comment>
+  </enumValues>
+  <enumValues uuid="50b74f6f-1c6f-44ce-8263-3c87a6db1255">
+    <name>ПроверитьВозможностьПеревестиАукционНаСледующийЭтап</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверить возможность перевести аукцион на следующий этап</value>
+    </synonym>
+    <comment>CheckPossibilityOfMovingAuctionToNextStage</comment>
+  </enumValues>
+  <enumValues uuid="87f6e313-af4f-42f9-bb28-9e77b5060394">
+    <name>ПроверитьВозможностьПодведенияПромежуточныхИтогов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверить возможность подведения промежуточных итогов</value>
+    </synonym>
+    <comment>CheckPossibilityOfSummingInterimResults</comment>
+  </enumValues>
+  <enumValues uuid="098a8d2f-db96-4e47-97d7-1aab775a2805">
+    <name>ПроверитьВозможностьЗавершенияАукциона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверить возможность завершения аукциона</value>
+    </synonym>
+    <comment>CheckPossibilityOfCompletingAuction</comment>
+  </enumValues>
+  <enumValues uuid="22d86017-5e7d-426b-993f-1574b64f854a">
+    <name>ВыполнитьСлужебноеОповещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить служебное оповещение</value>
+    </synonym>
+    <comment>ServiceNotification</comment>
+  </enumValues>
+  <enumValues uuid="b418c6ae-ed02-4d40-83c5-a2bebf863665">
+    <name>НачатьАукцион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начать аукцион</value>
+    </synonym>
+    <comment>StartAuction</comment>
+  </enumValues>
+  <enumValues uuid="f1362164-0cd8-4079-9a79-18d9442e8275">
+    <name>ОтправитьСообщениеУчастнику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить сообщение участнику</value>
+    </synonym>
+    <comment>SendMessageToAuctionParticipant</comment>
+  </enumValues>
+  <enumValues uuid="4af95fa1-0673-4705-9409-f7b8adfc0052">
+    <name>ПолучениеДанныхОтУчастника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение данных от участника</value>
+    </synonym>
+    <comment>GetDataFromParticipant</comment>
+  </enumValues>
+  <enumValues uuid="eeed9aad-30c9-414e-9d92-942ce3e8bd00">
+    <name>ЗафиксироватьПромежуточныеИтогиАукциона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зафиксировать промежуточные итоги аукциона</value>
+    </synonym>
+    <comment>FixTempResultsOfAuction</comment>
+  </enumValues>
+  <enumValues uuid="7d472a1e-073d-4aab-99a1-e6a418bfc58a">
+    <name>ПеревестиАукционНаСледующийЭтап</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевести аукцион на следующий этап</value>
+    </synonym>
+    <comment>MoveAuctionToNextStage</comment>
+  </enumValues>
+  <enumValues uuid="4fafc06a-134a-420c-96a9-cff9e7679589">
+    <name>ЗавершитьАукцион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершить аукцион</value>
+    </synonym>
+    <comment>CompletingAuction</comment>
+  </enumValues>
+  <enumValues uuid="e7d16f21-dbc8-447f-bc6c-7e4729da8a0c">
+    <name>ПоместитьВАрхив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поместить в архив</value>
+    </synonym>
+    <comment>PutInArchive</comment>
+  </enumValues>
+</mdclass:Enum>

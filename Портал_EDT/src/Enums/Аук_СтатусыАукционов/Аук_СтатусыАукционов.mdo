@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36a40f30-4465-4ba5-98e4-318b4175e325">
+  <producedTypes>
+    <refType typeId="dc1e5796-09f8-4823-a403-044aeea39e04" valueTypeId="b63b1f81-ce5a-4847-8d26-f8c3b2febc3d"/>
+    <listType typeId="77890dc5-9894-47cc-b19e-01db547c0c71" valueTypeId="535fafc9-1c8b-4d26-b787-612b4ca6d550"/>
+    <managerType typeId="1af310f5-8ef4-4b5a-be5c-12c42d0284f3" valueTypeId="63669825-07a4-45cd-8ac8-b059d12e50c2"/>
+  </producedTypes>
+  <name>Аук_СтатусыАукционов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы аукционов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ba6c5256-d1fc-419c-b874-c02b1b576704">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b09535e-d4bb-44af-b04b-7b1d27d5f1a9">
+    <name>ПодведениеПромежуточныхИтогов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подведение промежуточных итогов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b2589730-bd8a-418b-8fb1-46faa4aec26f">
+    <name>НовыйЭтап</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый этап</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32ec5b3d-b041-487f-9ee4-223cad974e38">
+    <name>ПодведениеИтогов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подведение итогов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6936a664-b8c8-4a39-9e6e-afa0807ca680">
+    <name>Завершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1761e975-cb18-49e4-946e-9b648efee28a">
+    <name>Архив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архив</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
